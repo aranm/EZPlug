@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23A197FB16A89D6400FB4AFB /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A197FA16A89D6400FB4AFB /* MainStoryboard_iPhone.storyboard */; };
 		A83F1A7A1577F01500002C8E /* TLC.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A83F1A791577F01500002C8E /* TLC.mp3 */; };
 		A882875614F436E200EFCEB2 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A882875514F436E200EFCEB2 /* Accelerate.framework */; };
 		A8B420A814AD446200ECB2A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B420A714AD446200ECB2A6 /* UIKit.framework */; };
@@ -16,14 +17,12 @@
 		A8B420B414AD446300ECB2A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B420B314AD446200ECB2A6 /* main.m */; };
 		A8B420B814AD446300ECB2A6 /* EZPlgAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = A8B420B714AD446300ECB2A6 /* EZPlgAppDelegate.mm */; };
 		A8B420BB14AD446300ECB2A6 /* EZPlgViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A8B420BA14AD446300ECB2A6 /* EZPlgViewController.mm */; };
-		A8B420BE14AD446300ECB2A6 /* EZPlgViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8B420BC14AD446300ECB2A6 /* EZPlgViewController.xib */; };
 		A8B420C914AD446300ECB2A6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B420C814AD446300ECB2A6 /* SenTestingKit.framework */; };
 		A8B420CA14AD446300ECB2A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B420A714AD446200ECB2A6 /* UIKit.framework */; };
 		A8B420CB14AD446300ECB2A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B420A914AD446200ECB2A6 /* Foundation.framework */; };
 		A8B420D314AD446300ECB2A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8B420D114AD446300ECB2A6 /* InfoPlist.strings */; };
 		A8B420D614AD446300ECB2A6 /* EZPlugDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B420D514AD446300ECB2A6 /* EZPlugDemoTests.m */; };
 		A8B420E114AD449900ECB2A6 /* RemoteIOPlayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = A8B420DF14AD449900ECB2A6 /* RemoteIOPlayer.mm */; };
-		A8B420E814AD45C000ECB2A6 /* EZPlugSynthController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A8B420E714AD45C000ECB2A6 /* EZPlugSynthController.mm */; };
 		A8B420EA14AD476700ECB2A6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B420E914AD476700ECB2A6 /* AudioToolbox.framework */; };
 		A8B420EC14AD47A800ECB2A6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B420EB14AD47A800ECB2A6 /* AVFoundation.framework */; };
 		A8B420EE14AD47CE00ECB2A6 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B420ED14AD47CE00ECB2A6 /* CoreAudio.framework */; };
@@ -55,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23A197FA16A89D6400FB4AFB /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		A83F1A791577F01500002C8E /* TLC.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TLC.mp3; sourceTree = "<group>"; };
 		A882875514F436E200EFCEB2 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		A8B420A314AD446200ECB2A6 /* EZPlugDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZPlugDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,9 +67,8 @@
 		A8B420B514AD446300ECB2A6 /* EZPlugDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EZPlugDemo-Prefix.pch"; sourceTree = "<group>"; };
 		A8B420B614AD446300ECB2A6 /* EZPlgAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZPlgAppDelegate.h; sourceTree = "<group>"; };
 		A8B420B714AD446300ECB2A6 /* EZPlgAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = EZPlgAppDelegate.mm; sourceTree = "<group>"; };
-		A8B420B914AD446300ECB2A6 /* EZPlgViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZPlgViewController.h; sourceTree = "<group>"; };
-		A8B420BA14AD446300ECB2A6 /* EZPlgViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = EZPlgViewController.mm; sourceTree = "<group>"; };
-		A8B420BD14AD446300ECB2A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EZPlgViewController.xib; sourceTree = "<group>"; };
+		A8B420B914AD446300ECB2A6 /* EZPlgViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EZPlgViewController.h; path = EZPlugDemo/EZPlgViewController.h; sourceTree = "<group>"; };
+		A8B420BA14AD446300ECB2A6 /* EZPlgViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = EZPlgViewController.mm; path = EZPlugDemo/EZPlgViewController.mm; sourceTree = "<group>"; };
 		A8B420C714AD446300ECB2A6 /* EZPlugDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EZPlugDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8B420C814AD446300ECB2A6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		A8B420D014AD446300ECB2A6 /* EZPlugDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EZPlugDemoTests-Info.plist"; sourceTree = "<group>"; };
@@ -78,8 +77,6 @@
 		A8B420D514AD446300ECB2A6 /* EZPlugDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZPlugDemoTests.m; sourceTree = "<group>"; };
 		A8B420DF14AD449900ECB2A6 /* RemoteIOPlayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RemoteIOPlayer.mm; sourceTree = "<group>"; };
 		A8B420E014AD449900ECB2A6 /* RemoteIOPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteIOPlayer.h; sourceTree = "<group>"; };
-		A8B420E614AD45C000ECB2A6 /* EZPlugSynthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZPlugSynthController.h; sourceTree = "<group>"; };
-		A8B420E714AD45C000ECB2A6 /* EZPlugSynthController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EZPlugSynthController.mm; sourceTree = "<group>"; };
 		A8B420E914AD476700ECB2A6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		A8B420EB14AD47A800ECB2A6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A8B420ED14AD47CE00ECB2A6 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
@@ -171,15 +168,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23A197F916A89CD200FB4AFB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A8B420B914AD446300ECB2A6 /* EZPlgViewController.h */,
+				A8B420BA14AD446300ECB2A6 /* EZPlgViewController.mm */,
+			);
+			name = ViewControllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		23A197FC16A8A39A00FB4AFB /* Audio Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				A8B420E014AD449900ECB2A6 /* RemoteIOPlayer.h */,
+				A8B420DF14AD449900ECB2A6 /* RemoteIOPlayer.mm */,
+			);
+			name = "Audio Infrastructure";
+			sourceTree = "<group>";
+		};
+		23A197FD16A8A3B800FB4AFB /* Synthesis */ = {
+			isa = PBXGroup;
+			children = (
+				A8BFB62B14B4B77D0065DF1F /* EZPlgDemoSynth.h */,
+			);
+			name = Synthesis;
+			sourceTree = "<group>";
+		};
 		A8B4209814AD446200ECB2A6 = {
 			isa = PBXGroup;
 			children = (
 				A8E6E8E315C2F92F00D244FD /* STK */,
 				A8E6E8B815C2F92100D244FD /* EZPlug */,
-				A882875514F436E200EFCEB2 /* Accelerate.framework */,
-				A8B420ED14AD47CE00ECB2A6 /* CoreAudio.framework */,
-				A8B420EB14AD47A800ECB2A6 /* AVFoundation.framework */,
-				A8B420E914AD476700ECB2A6 /* AudioToolbox.framework */,
 				A8B420AD14AD446200ECB2A6 /* EZPlugDemo */,
 				A8B420CE14AD446300ECB2A6 /* EZPlugDemoTests */,
 				A8B420A614AD446200ECB2A6 /* Frameworks */,
@@ -199,6 +219,10 @@
 		A8B420A614AD446200ECB2A6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A882875514F436E200EFCEB2 /* Accelerate.framework */,
+				A8B420ED14AD47CE00ECB2A6 /* CoreAudio.framework */,
+				A8B420EB14AD47A800ECB2A6 /* AVFoundation.framework */,
+				A8B420E914AD476700ECB2A6 /* AudioToolbox.framework */,
 				A8B420A714AD446200ECB2A6 /* UIKit.framework */,
 				A8B420A914AD446200ECB2A6 /* Foundation.framework */,
 				A8B420AB14AD446200ECB2A6 /* CoreGraphics.framework */,
@@ -210,19 +234,13 @@
 		A8B420AD14AD446200ECB2A6 /* EZPlugDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A83F1A791577F01500002C8E /* TLC.mp3 */,
-				A8EF5D6214F87C1E00641E09 /* bachants.aif */,
-				A8BFB62B14B4B77D0065DF1F /* EZPlgDemoSynth.h */,
-				A8B420DF14AD449900ECB2A6 /* RemoteIOPlayer.mm */,
-				A8B420E014AD449900ECB2A6 /* RemoteIOPlayer.h */,
+				23A197FD16A8A3B800FB4AFB /* Synthesis */,
+				23A197FC16A8A39A00FB4AFB /* Audio Infrastructure */,
+				23A197F916A89CD200FB4AFB /* ViewControllers */,
 				A8B420B614AD446300ECB2A6 /* EZPlgAppDelegate.h */,
 				A8B420B714AD446300ECB2A6 /* EZPlgAppDelegate.mm */,
-				A8B420B914AD446300ECB2A6 /* EZPlgViewController.h */,
-				A8B420BA14AD446300ECB2A6 /* EZPlgViewController.mm */,
-				A8B420BC14AD446300ECB2A6 /* EZPlgViewController.xib */,
+				23A197FA16A89D6400FB4AFB /* MainStoryboard_iPhone.storyboard */,
 				A8B420AE14AD446200ECB2A6 /* Supporting Files */,
-				A8B420E614AD45C000ECB2A6 /* EZPlugSynthController.h */,
-				A8B420E714AD45C000ECB2A6 /* EZPlugSynthController.mm */,
 			);
 			path = EZPlugDemo;
 			sourceTree = "<group>";
@@ -230,6 +248,8 @@
 		A8B420AE14AD446200ECB2A6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A83F1A791577F01500002C8E /* TLC.mp3 */,
+				A8EF5D6214F87C1E00641E09 /* bachants.aif */,
 				A8B420AF14AD446200ECB2A6 /* EZPlugDemo-Info.plist */,
 				A8B420B014AD446200ECB2A6 /* InfoPlist.strings */,
 				A8B420B314AD446200ECB2A6 /* main.m */,
@@ -408,9 +428,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8B420B214AD446200ECB2A6 /* InfoPlist.strings in Resources */,
-				A8B420BE14AD446300ECB2A6 /* EZPlgViewController.xib in Resources */,
 				A8EF5D6314F87C1E00641E09 /* bachants.aif in Resources */,
 				A83F1A7A1577F01500002C8E /* TLC.mp3 in Resources */,
+				23A197FB16A89D6400FB4AFB /* MainStoryboard_iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,7 +469,6 @@
 				A8B420B814AD446300ECB2A6 /* EZPlgAppDelegate.mm in Sources */,
 				A8B420BB14AD446300ECB2A6 /* EZPlgViewController.mm in Sources */,
 				A8B420E114AD449900ECB2A6 /* RemoteIOPlayer.mm in Sources */,
-				A8B420E814AD45C000ECB2A6 /* EZPlugSynthController.mm in Sources */,
 				A8E6E8DD15C2F92100D244FD /* CPPAudioUtil.cpp in Sources */,
 				A8E6E8DE15C2F92100D244FD /* Delayer.cpp in Sources */,
 				A8E6E8DF15C2F92100D244FD /* Enveloper.cpp in Sources */,
@@ -492,14 +511,6 @@
 				A8B420B114AD446200ECB2A6 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		A8B420BC14AD446300ECB2A6 /* EZPlgViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A8B420BD14AD446300ECB2A6 /* en */,
-			);
-			name = EZPlgViewController.xib;
 			sourceTree = "<group>";
 		};
 		A8B420D114AD446300ECB2A6 /* InfoPlist.strings */ = {

@@ -36,6 +36,10 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIMainStoryboardFile~iphone</key>
+	<string>MainStoryboard_iPhone</string>
+	<key>UIMainStoryboardFile~ipad</key>
+	<string>MainStoryboard_iPhone</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

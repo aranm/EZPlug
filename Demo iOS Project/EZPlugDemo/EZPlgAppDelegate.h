@@ -8,13 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@class EZPlgViewController;
-
 @interface EZPlgAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
-@property (strong, nonatomic) EZPlgViewController *viewController;
 
 @end
 
